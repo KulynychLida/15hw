@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1300px;
+    margin: 0px auto;
+}
+.header {
+    background-color: #0890ff;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 0px;
+    list-style: none;
+}
+.link {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 243, 110);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.link:hover {
+    font-weight: 700;
+}
+.gallery {
+    background-color: beige;
+}
+.gallery-list {
+    padding: 40px;
+    justify-content: space-between;
+}
+.gallery-item {
+    padding-bottom: 25px;
+    margin-left: 50px;
+}
