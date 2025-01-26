@@ -35,9 +35,9 @@ body {
 }
 .gallery-list {
     padding: 40px;
-    justify-content: space-between;
+    display: flex;
 }
 .gallery-item {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     margin-left: 50px;
 }
